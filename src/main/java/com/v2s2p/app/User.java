@@ -44,4 +44,9 @@ public class User {
         logger.info("User: " + name + " Level: " + level + " Preferred Route Length: " + preferredRouteLength);
     }
 
+    @Override
+    public String toString() {
+        return "User{name='" + name + "', level=" + level + ", preferredRouteLength=" + preferredRouteLength + '}';
+    }
+
 }
